@@ -1,0 +1,76 @@
+@import "~/.cache/wal/colors-rofi-dark"
+
+configuration {
+    font:                           "FiraCode Nerd Font SemiBold 13";
+    show-icons:                     false;
+    icon-theme: 		    "Arc-X-D";
+    scroll-method:                  0;
+    disable-history:                false;
+    sidebar-mode: 		    false;
+    me-select-entry:		    "";
+    me-accept-entry:		    "MousePrimary";
+}
+
+//@import "~/.config/rofi/arc_dark_transparent_colors.rasi"
+window {
+    border:                  0;
+    padding:                 10;
+    transparency:            "real";
+    width:                    10%;
+    location:                 center;
+   /*y-offset:                18;*/
+   /*x-offset:	              850;*/
+    transparency:             "real";
+}
+listview {
+    lines:                          5;
+    columns:                        1;
+    scrollbar:			false;
+}
+element {
+    border:  0;
+    padding: 20px ;
+}
+
+element.selected.normal {
+    background-color: 	#2d303b00;
+    text-color:       	#f1fa8c;
+}
+scrollbar {
+    width:        4px ;
+    border:       0;
+    handle-width: 8px ;
+    padding:      0;
+}
+mode-switcher {
+    border:       2px 0px 0px ;
+}
+button {
+    spacing:    0;
+}
+
+inputbar {
+    spacing:    0;
+    padding:    1px ;
+}
+case-indicator {
+    spacing:    0;
+}
+entry {
+    spacing:    0;
+}
+prompt {
+    spacing:    0;
+}
+inputbar {
+    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+textbox-prompt-colon {
+    expand:     false;
+    str:        ":";
+    margin:     0px 0.3em 0em 0em ;
+    text-color: @normal-foreground;
+}
+
+
+

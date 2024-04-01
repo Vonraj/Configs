@@ -1,0 +1,59 @@
+#     _    _ _
+#    / \  | (_) __ _ ___  ___  ___
+#   / _ \ | | |/ _` / __|/ _ \/ __|
+#  / ___ \| | | (_| \__ \  __/\__ \
+# /_/   \_\_|_|\__,_|___/\___||___/
+
+
+# -----------------------------------------------------
+# EDITOR
+# -----------------------------------------------------
+
+alias v="nvim"
+alias sv="sudo nvim"
+
+
+# -----------------------------------------------------
+# PACMAN
+# -----------------------------------------------------
+
+
+alias in="sudo pacman -S"
+alias unin="sudo pacman -Rs"
+alias up="sudo pacman -Syu"
+
+
+# -----------------------------------------------------
+# GENERAL
+# -----------------------------------------------------
+
+
+alias c="clear"
+alias nf="neofetch"
+
+
+# -----------------------------------------------------
+# GIT
+# -----------------------------------------------------
+
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit -m"
+alias gp="git push"
+alias gpl="git pull"
+
+
+# -----------------------------------------------------
+# EDIT CONFIG FILES
+# -----------------------------------------------------
+
+alias confq="v ~/Configs/qtile/config.py"
+alias confa="v ~/Configs/apps"
+alias copytext='xclip -selection clipboard <'
+alias token="copytext ~/token"
+alias confz="v ~/Configs/zsh/.zshrc"
+alias conf="cd ~/Configs"
+
+
+
+

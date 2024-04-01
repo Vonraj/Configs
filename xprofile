@@ -1,0 +1,21 @@
+#                         __ _ _
+#  __  ___ __  _ __ ___  / _(_) | ___
+#  \ \/ / '_ \| '__/ _ \| |_| | |/ _ \
+# _ >  <| |_) | | | (_) |  _| | |  __/
+#(_)_/\_\ .__/|_|  \___/|_| |_|_|\___|
+#       |_|
+#
+
+#xrandr --output DP-2 --mode 3440x1440 --rate 144 &
+wal -i ~/Wallpapers/city_from_above.png
+nitrogen --restore &
+sxhkd &
+lxappearance --restore & 
+picom & 
+lxsession &
+xset -dpms &
+xset s off &
+#ckb-next &
+dunst &
+
+
