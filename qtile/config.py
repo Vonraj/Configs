@@ -108,7 +108,7 @@ keys = [
 
 groups = []
 group_names = ["1", "2", "3", "4", "5", "z" ]
-group_labels = ["  ", "  ", "  ", " 󰮯 ", "  ", " 󰒲 "]
+group_labels = ["  ", "  ", "  ", " 󰮯 ", "  ", " 󰊠 "]
 group_layouts = ["columns", "columns", "columns", "columns", "columns", "columns"]
 
 for i in range(len(group_names)):
