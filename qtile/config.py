@@ -108,7 +108,7 @@ keys = [
 
 groups = []
 group_names = ["1", "2", "3", "4", "5", "z" ]
-group_labels = ["  ", "  ", "  ", " 󰚩 ", "  ", " 󰒲 "]
+group_labels = ["  ", "  ", "  ", " 󰮯 ", "  ", " 󰒲 "]
 group_layouts = ["columns", "columns", "columns", "columns", "columns", "columns", "columns", "columns", "columns"]
 
 for i in range(len(group_names)):
@@ -227,27 +227,27 @@ extension_defaults = widget_defaults.copy()
                 #### DECORATIONS ####
 # --------------------------------------------------------
 
-decor_left = {
-    "decorations": [
-        PowerLineDecoration(
+#decor_left = {
+    #"decorations": [
+    #    PowerLineDecoration(
             #path="arrow_left"
-             path="rounded_left"
+   #          path="rounded_left"
             # path="forward_slash"
             # path="back_slash"
-        )
-    ],
-}
+  #      )
+ #   ],
+#}
 
-decor_right = {
-    "decorations": [
-        PowerLineDecoration(
+#decor_right = {
+   # "decorations": [
+ #       PowerLineDecoration(
             #path="arrow_right"
-             path="rounded_right"
+  #           path="rounded_right"
             # path="forward_slash"
             # path="back_slash"
-        )
-    ],
-}
+    #    )
+    #],
+#}
 
 
 
@@ -283,7 +283,9 @@ widget_list = [
                 highlight_method = 'black',
                 rounded = True,
                 borderwidth = 3,
-                hide_unused = False
+                center_aligned = True,
+                hide_unused = False,
+                disable_drag = True,
                 ),
 
 
@@ -569,7 +571,6 @@ mouse = [
 # --------------------------------------------------------
             #### DEFINE FLOATING LAYOUTS ####
 # --------------------------------------------------------
-floating_types = ["notification", "toolbar", "splash", "dialog"]
 dgroups_key_binder = None
 dgroups_app_rules = []  # type: list
 follow_mouse_focus = True
@@ -589,19 +590,16 @@ floating_layout = layout.Floating(**layout_theme,
         Match(wm_class="makebranch"),   
         Match(wm_class="maketag"),      
         Match(wm_class="ssh-askpass"),  
-        Match(wm_class='file_progress'),
-        Match(wm_class='splash'),
-        #Match(wm_class='Arandr'),
-        Match(wm_class='feh'),
-        Match(wm_class='Galculator'),
-        Match(wm_class='openrgb'),
-        #Match(wm_class='VirtualBox Manager'),
-        Match(wm_class='ckb-next'),
-        #Match(wm_class='archlinux-logout'),
-        Match(wm_class='xfce4-terminal'),
-        Match(wm_class='nitrogen'),
-        Match(wm_class='pinentry-gtk-2'),
-        Match(title="pinentry"),
+        Match(wm_class="file_progress"),
+        Match(wm_class="splash"),
+        Match(wm_class="feh"),
+        Match(wm_class="Galculator"),
+        Match(wm_class="openrgb"),
+        Match(wm_class="ckb-next"),
+        Match(wm_class="xfce4-terminal"),
+        Match(wm_class="nitrogen"),
+        Match(wm_class="pinentry"),
+        Match(wm_class="lxappearance"),
 
 
         ],
