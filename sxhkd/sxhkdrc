@@ -21,10 +21,8 @@ alt + e
 alt + x
 	rofi -show drun
 
-
-
 alt + c
-	~/.config/rofi/powermenu.sh
+	~/scripts/powermenu.sh
 	
 #thunar launcher
 alt + r
@@ -34,21 +32,19 @@ alt + r
 
  #Change volume
 XF86AudioRaiseVolume	
-	~/.local/bin/volume up	
+	~/scripts/volume up	
 	   
 	
   
 XF86AudioLowerVolume
-	~/.local/bin/volume down	
+	~/scripts/volume down	
 
 
 
 XF86AudioMute	
-	~/.local/bin/volume mute	
+	~/scripts/volume mute	
 
 
-
-	
 
 #redshift
 alt + t
@@ -63,8 +59,6 @@ alt + y
 #pywal
 alt + v 
 	wal -i ~/Wallpapers
-
-
 
 
 
@@ -110,8 +104,8 @@ alt + @Print
 
 
 #change wallpapers
-alt + shift + x
-	nitrogen --random --set-zoom-fill ~/File/Wallpapers
+#alt + shift + x
+#	nitrogen --random --set-zoom-fill ~/File/Wallpapers
 
 
 
