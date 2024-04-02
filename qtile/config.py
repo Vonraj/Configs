@@ -109,7 +109,7 @@ keys = [
 groups = []
 group_names = ["1", "2", "3", "4", "5", "z" ]
 group_labels = ["  ", "  ", "  ", " 󰮯 ", "  ", " 󰒲 "]
-group_layouts = ["columns", "columns", "columns", "columns", "columns", "columns", "columns", "columns", "columns"]
+group_layouts = ["columns", "columns", "columns", "columns", "columns", "columns"]
 
 for i in range(len(group_names)):
     groups.append(
@@ -325,7 +325,7 @@ widget_list = [
                 foreground = colors[3],
                 #background = colors[0],
                 padding = 3,
-                fontsize = 20
+                fontsize = 20,
                 ),
  
               
@@ -365,7 +365,7 @@ widget_list = [
                 background=("#000000.0"),
                 #background = colors[0],
                 padding = 5,
-                fontsize = 20
+                fontsize = 20,
                 ),
             
             
@@ -389,7 +389,7 @@ widget_list = [
                 background=("#000000.0"),
                 #background = colors[0],
                 #padding = 1,
-                fontsize = 20
+                fontsize = 20,
                 ),
 
 
@@ -410,7 +410,7 @@ widget_list = [
                 background=("#000000.0"),
                 #background = colors[0],
                 padding = 5,
-                fontsize = 20
+                fontsize = 20,
                 ),
 
 
@@ -434,7 +434,7 @@ widget_list = [
                 background=("#000000.0"),
                 #background = colors[0],
                 #padding = 1,
-                fontsize = 20
+                fontsize = 20,
                 ),
 
 
@@ -460,7 +460,7 @@ widget_list = [
                 background=("#000000.0"),
                 #background = colors[0],
                 #padding = 5,
-                fontsize = 20
+                fontsize = 20,
                 ),
 
 
@@ -481,7 +481,7 @@ widget_list = [
                 background=("#000000.0"),
                 #background = colors[0],
                 #padding = 6,
-                fontsize = 20
+                fontsize = 20,
                 ),
 
 
@@ -511,7 +511,7 @@ widget_list = [
                 background=("#000000.0"),
                 #background = colors[0],
                 #padding = 6,
-                fontsize = 20
+                fontsize = 20,
                 ),
 
 
@@ -529,7 +529,7 @@ widget_list = [
                 text="", 
                 fontsize = 30, 
                 font = "FiraCode Nerd Font Mono", 
-                mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(".config/rofi/powermenu.sh")}, 
+                mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn("scripts/powermenu.sh")}, 
                 foreground = colors[7],
                 padding=10,
                 background=("#000000.0"),
@@ -550,7 +550,7 @@ screens = [
             opacity=0.7,
             border_width=[0, 0, 0, 0],
             margin=[10,40,10,40],
-            background="#000000.3"
+            background="#000000.3",
         ),
     ),
 ]
