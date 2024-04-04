@@ -1,7 +1,80 @@
-// ____        __ _
-//|  _ \ ___  / _(_)
-//| |_) / _ \| |_| |
-//|  _ < (_) |  _| |
-//|_| \_\___/|_| |_|
+/* Dark theme. */
+@import "~/.cache/wal/colors-rofi-dark"
 
-@theme "~/.config/rofi/themes/nova-dark.rasi"
+configuration {
+    modi:                       "drun,run";
+    font:                       "JetBrainsMono Nerd Font Mono ExtraBold Italic 17";
+    show-icons:                 true;
+    icon-theme:                 "Breeze-Dark";
+    display-drun:               " Apps";
+    display-run:                " Run";
+    display-filebrowser:        " Files";
+    display-window:             " Windows";
+    drun-display-format:        "{name}";
+    hover-select:               false;
+    me-select-entry:            "";
+    me-accept-entry:          "MousePrimary";
+    window-format:              "{w} · {c} · {t}";
+
+}
+
+/* ---- Window ---- */
+window {
+    width:                        17%;
+    x-offset:                     0px;
+    y-offset:                     0px;
+    spacing:                      0px;
+    padding:                      0px;
+    margin:                       0px; 
+    color:                        #FFFFFF;
+    //border:                     @border-width;
+    border-color:                 #FFFFFF;
+    cursor:                       "default";
+    transparency:                 "real";
+    location:                     center;
+    anchor:                       center;
+    fullscreen:                   false;
+    enabled:                      true;
+    //border-radius:                1px;
+    background-color:             transparent;
+}
+
+listview {
+    columns: 1;
+    //lines: 10;
+
+
+}
+
+element {
+padding: 8 12;
+}
+
+element-icon {
+    size: 30;
+    padding: 0 10 0 0;
+
+}
+
+
+entry {
+   // padding:12;
+   placeholder: "Search Apps";
+
+
+}
+
+prompt {
+   //padding: 12 0 0 12;
+
+}
+
+
+mainbox {
+   //children: [inputbar, listview];
+
+}
+
+
+
+

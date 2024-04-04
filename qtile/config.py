@@ -600,6 +600,10 @@ floating_layout = layout.Floating(**layout_theme,
         Match(wm_class="nitrogen"),
         Match(wm_class="pinentry"),
         Match(wm_class="lxappearance"),
+        #Match(wm_class="terminator"),
+
+
+        
 
 
         ],

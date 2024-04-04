@@ -5,12 +5,10 @@ logout="󰩈     Logout"
 lock="     Lock"
 shutdown="     Shutdown"
 reboot="󰑓     Reboot"
-sleep="     Sleep"
 
 # Get answer from user via rofi
 selected_option=$(echo "$lock
 $logout
-$sleep
 $reboot
 $shutdown" | rofi -dmenu\
                   -i\
@@ -35,9 +33,6 @@ elif 	[ "$selected_option" == "$shutdown" ]
 then
     	systemctl poweroff
 elif 	[ "$selected_option" == "$reboot" ]
-then
-    	systemctl reboot
-elif 	[ "$selected_option" == "$sleep" ]
 then
     amixer set Master mute
     systemctl suspend

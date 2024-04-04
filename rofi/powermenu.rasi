@@ -23,7 +23,7 @@ window {
     transparency:             "real";
 }
 listview {
-    lines:                          5;
+    lines:                          4;
     columns:                        1;
     scrollbar:			false;
 }
@@ -58,6 +58,7 @@ case-indicator {
 }
 entry {
     spacing:    0;
+    placeholder: "Search";
 }
 prompt {
     spacing:    0;
