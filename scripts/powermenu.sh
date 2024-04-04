@@ -14,7 +14,7 @@ $shutdown" | rofi -dmenu\
                   -i\
                   -p "Power"\
                   -config "~/.config/rofi/powermenu.rasi"\
-                  -font "JetBrainsMono Nerd Font Bold Italic 18"\
+                  -font "firaCode Nerd Font SemiBold 18"\
                   -width "15"\
                   -lines 4\
                   -line-margin 3\
