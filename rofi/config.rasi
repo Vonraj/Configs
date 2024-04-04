@@ -3,7 +3,7 @@
 
 configuration {
     modi:                       "drun,run";
-    font:                       "JetBrainsMono Nerd Font Mono ExtraBold Italic 17";
+    font:                       "FiraCode Nerd Font SemiBold 17";
     show-icons:                 true;
     icon-theme:                 "Breeze-Dark";
     display-drun:               " Apps";
