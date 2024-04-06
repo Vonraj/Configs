@@ -22,6 +22,9 @@ alt + x
 	rofi -show drun
 
 alt + c
+	rofi -show window
+
+alt + b
 	~/scripts/powermenu.sh
 	
 #thunar launcher
