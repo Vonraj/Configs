@@ -33,7 +33,9 @@ elif 	[ "$selected_option" == "$shutdown" ]
 then
     	systemctl poweroff
 elif 	[ "$selected_option" == "$reboot" ]
+
 then
+	systemctl reboot
     amixer set Master mute
     systemctl suspend
 else

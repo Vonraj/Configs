@@ -38,7 +38,12 @@ alias fun="flatpak uninstall"
 
 alias c="clear"
 alias nf="neofetch"
-
+alias bat='bat --style header --style snip --style changes --style header'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
 
 # -----------------------------------------------------
 # GIT
