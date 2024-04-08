@@ -312,7 +312,8 @@ widget_list = [
                 padding = 7,
                 scale=0.8,
                 ),
-  
+             
+
 
             widget.Spacer(
                 background=("#000000.0"),
@@ -339,10 +340,26 @@ widget_list = [
                 width=bar.CALCULATED,
                 empty_group_string="Desktop",
                 #background=colors[0],
-                max_chars = 80,
+                max_chars = 35,
                 ), 
                     
-                   
+             widget.Pomodoro(
+                background=("#000000.0"),
+                foreground = colors[7],
+                color_inactive = colors[3],
+                prefix_inactive = '  ',
+                prefix_paused = '  ',
+                prefix_active = ' 󰜎 ',
+                prefix_break = ' 󱫞 ',
+                prefix_long_break = ' 󰒲 ',
+                #color_active =
+                notification_on = True,
+                fontsize=None,
+                font = "FiraCode Nerd Font Bold",
+                scroll_delay=0,
+                #padding=0,
+                length_pomodori=25, 
+                ),      
 
             widget.Spacer(
                 #background=colors[0],
@@ -430,7 +447,7 @@ widget_list = [
 
 
             widget.TextBox(
-                text = '  ',
+                text = ' 󰧑 ',
                 font = "FiraCode Nerd Font Bold",
                 foreground = colors[3],
                 background=("#000000.0"),
@@ -478,7 +495,7 @@ widget_list = [
 
 
             widget.TextBox(
-                text = '  󰥔 ',
+                text = '   ',
                 font = "FiraCode Nerd Font Bold",
                 foreground = colors[3],
                 background=("#000000.0"),
