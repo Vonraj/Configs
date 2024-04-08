@@ -15,7 +15,7 @@ picom &
 lxsession &
 xset -dpms &
 xset s off &
-#ckb-next &
 dunst &
-
+volumeicon &
+#ckb-next &
 

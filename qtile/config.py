@@ -109,7 +109,7 @@ keys = [
 groups = []
 group_names = ["1", "2", "3", "4", "5", "z" ]
 group_labels = ["  ", "  ", "  ", " 󰮯 ", "  ", " 󰊠 "]
-group_layouts = ["columns", "columns", "columns", "columns", "columns", "columns"]
+group_layouts = ["columns", "columns", "columns", "floating", "columns", "columns"]
 
 for i in range(len(group_names)):
     groups.append(
@@ -455,6 +455,7 @@ widget_list = [
 
             widget.TextBox(
                 text = '  󰕾 ',
+                mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn("scripts/volume_slide.sh")},
                 font = "FiraCode Nerd Font Bold",
                 foreground = colors[3],
                 background=("#000000.0"),

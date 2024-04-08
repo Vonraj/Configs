@@ -13,7 +13,7 @@ blinking = "On"
 shape = "Beam"
 
 [font]
-size = 14.00
+size = 15.00
 
 #[font.bold]
 #family = "JetBrainsMono Nerd Font"

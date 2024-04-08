@@ -61,6 +61,8 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 clear && cat /home/vonraj/.cache/wal/sequences
 
+#neofetch
+
 
 
 
