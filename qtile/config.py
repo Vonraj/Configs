@@ -337,7 +337,7 @@ widget_list = [
                 width=bar.CALCULATED,
                 empty_group_string="Desktop",
                 #background=colors[0],
-                #max_chars = 45,
+                max_chars = 80,
                 ), 
                     
                    
