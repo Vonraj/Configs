@@ -139,6 +139,7 @@ groups.append(ScratchPad("scratchpad", [
         DropDown("term", "alacritty --class=scratch", width=0.4, height=0.6, x=0.3, y=0.2, opacity=1),
         DropDown("btop", "alacritty --class=btop -e btop", width=0.4, height=0.6, x=0.3, y=0.2, opacity=1),
         DropDown("galculator", "galculator", width=0.4, height=0.6, x=0.3, y=0.2, opacity=1),
+        #DropDown("ranger", "alacritty --class=ranger -e ranger", width=0.4, height=0.6, x=0.3, y=0.2, opacity=1),
         ]))
 
 
@@ -152,6 +153,7 @@ keys.extend([
     Key([mod, "shift"], "q", lazy.group['scratchpad'].dropdown_toggle('term')),
     Key([mod, "shift"], "w", lazy.group['scratchpad'].dropdown_toggle('btop')),
     Key([mod, "shift"], "e", lazy.group['scratchpad'].dropdown_toggle('galculator')),
+    #Key([mod, "shift"], "r", lazy.group['scratchpad'].dropdown_toggle('galculator')),
         ])
 
 
@@ -600,8 +602,8 @@ floating_layout = layout.Floating(**layout_theme,
         Match(wm_class="xfce4-terminal"),
         Match(wm_class="nitrogen"),
         Match(wm_class="pinentry"),
-        Match(wm_class="lxappearance"),
-        #Match(wm_class="terminator"),
+        #Match(wm_class="lxappearance"),
+        Match(wm_class="nemo-preview-start"),
 
 
         
