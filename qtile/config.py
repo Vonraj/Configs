@@ -614,13 +614,16 @@ floating_layout = layout.Floating(**layout_theme,
         Match(wm_class="splash"),
         Match(wm_class="feh"),
         Match(wm_class="Galculator"),
-        Match(wm_class="openrgb"),
+        #Match(wm_class="openrgb"),
         Match(wm_class="ckb-next"),
-        Match(wm_class="xfce4-terminal"),
+        #Match(wm_class="xfce4-terminal"),
         Match(wm_class="nitrogen"),
         Match(wm_class="pinentry"),
         #Match(wm_class="lxappearance"),
         Match(wm_class="nemo-preview-start"),
+        Match(wm_class="nwg-look"),
+
+
 
 
         
