@@ -11,6 +11,8 @@
 
 alias v="nvim"
 alias sv="sudo nvim"
+alias g="geany"
+
 
 
 # -----------------------------------------------------
@@ -21,6 +23,7 @@ alias sv="sudo nvim"
 alias in="sudo pacman -S"
 alias unin="sudo pacman -Rs"
 alias up="sudo pacman -Syu"
+
 
 
 # -----------------------------------------------------
