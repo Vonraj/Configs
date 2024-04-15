@@ -623,6 +623,7 @@ floating_layout = layout.Floating(**layout_theme,
         Match(wm_class="nemo-preview-start"),
         Match(wm_class="nwg-look"),
         Match(wm_class="steam"),
+        Match(wm_class="YouTube Music"),
 
 
 
