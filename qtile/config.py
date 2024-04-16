@@ -569,7 +569,7 @@ screens = [
             padding=20,
             opacity=0.7,
             border_width=[0, 0, 0, 0],
-            margin=[10,40,10,40],
+            margin=[10,40,0,40],
             background="#000000.3",
         ),
     ),
