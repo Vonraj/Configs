@@ -109,7 +109,7 @@ keys = [
 groups = []
 group_names = ["1", "2", "3", "4", "5", "z" ]
 group_labels = ["  ", "  ", "  ", " 󰮯 ", "  ", " 󰊠 "]
-group_layouts = ["columns", "columns", "columns", "floating", "columns", "columns"]
+group_layouts = ["columns", "columns", "columns", "floating", "floating", "columns"]
 
 for i in range(len(group_names)):
     groups.append(
@@ -626,6 +626,7 @@ floating_layout = layout.Floating(**layout_theme,
         Match(wm_class="nwg-look"),
         Match(wm_class="steam"),
         Match(wm_class="YouTube Music"),
+        Match(wm_class="python3"),
 
 
 
