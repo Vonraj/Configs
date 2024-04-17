@@ -627,6 +627,7 @@ floating_layout = layout.Floating(**layout_theme,
         Match(wm_class="steam"),
         Match(wm_class="YouTube Music"),
         Match(wm_class="python3"),
+        Match(wm_class="file-roller"),
 
 
 
