@@ -1,3 +1,0 @@
-<graphics type="egl-headless">
-  <gl rendernode="/dev/dri/renderD128"/>
-</graphics>
